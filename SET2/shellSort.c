@@ -1,4 +1,4 @@
-#include<stdio.h>;
+#include<stdio.h>
 
 int shellSort(int arr [],int n){
     for(int gap = n/2 ; gap >= 1 ;gap/=2){
