@@ -1,39 +1,33 @@
 #include<stdio.h>
 void countSort(int arr[] ,int n){
     int max = arr[0];
-
-    // Finding max
     for(int i = 1 ;i<n;i++){
         if(arr[i] > max){
             max = arr[i];
         }
     }
 
-    // Count array with 0's
     int count[max+1];
+
     for(int i = 0 ;i<max+1 ;i++){
         count[i] = 0;
     }
 
-    // frequency of numbers
     for(int i = 0 ;i<n ;i++){
         count[arr[i]]++;
     }
 
-    // prefixsum
     int prefixsum = count[0];
     for(int i = 1 ;i<max+1 ;i++){
         prefixsum += count[i];
         count[i] = prefixsum;
     }
-
-    // indexing from array to ans via count 
+    
     int ans[n];
     for(int i = n-1 ;i>=0 ;i--){
         ans[--count[arr[i]]] = arr[i];
     }
 
-    // copying to original array
     for(int i = 0 ;i<n;i++){
         arr[i] = ans[i];
     }
