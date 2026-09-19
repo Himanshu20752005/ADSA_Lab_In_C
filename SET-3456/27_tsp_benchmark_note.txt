@@ -1,0 +1,11 @@
+For the requested n = 10,20,40,60,100 timing table, do NOT run exact Held-Karp:
+time complexity = O(n^2 * 2^n), so 40/60/100 are impractical.
+
+Use a polynomial heuristic such as nearest-neighbor for those sizes if your
+professor wants an actual timing experiment. Run the program multiple times,
+record average execution time, and plot:
+x-axis = number of nodes
+y-axis = execution time (seconds).
+
+If the assignment specifically requires exact TSP, report that 40, 60 and
+100 nodes are infeasible for the exact DP method on normal hardware.
