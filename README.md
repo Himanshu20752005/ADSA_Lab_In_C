@@ -67,8 +67,8 @@ ADSA/
 
 | No. | Problem | Status |
 |:---:|---|:---:|
-| 9 | Implement the preorder traversal algorithm for binary trees without using recursion. | ⬜ |
-| 10 | Implement `createTree()`, `deleteTree()`, `insertItem()`, `deleteItem()`, and `searchItem()` for AVL trees, red-black trees, B-trees, and B+ trees. | ⬜ |
+| 9 | Implement the preorder traversal algorithm for binary trees without using recursion. | ✅ |
+| 10 | Implement `createTree()`, `deleteTree()`, `insertItem()`, `deleteItem()`, and `searchItem()` for AVL trees, red-black trees, B-trees, and B+ trees. | ✅ |
 
 ---
 
