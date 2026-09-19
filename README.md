@@ -49,7 +49,7 @@ ADSA/
 |:---:|---|:---:|
 | 3 | Implement insertion sort, bubble sort, selection sort, shell sort, quick sort, merge sort, heap sort, radix sort, counting sort, bucket sort, exchange sort, and address calculation sort. | ✅ |
 | 4 | Implement merge sort using recursion. This should follow a top-down approach using recursion or a stack to track the divide-and-conquer process. | ✅ |
-| 5 | Implement merge sort using recursion without using any stack. The solution should use only two nested loops and follow a bottom-up approach. | ⬜ |
+| 5 | Implement merge sort using recursion without using any stack. The solution should use only two nested loops and follow a bottom-up approach. | ✅ |
 
 ---
 
@@ -57,9 +57,9 @@ ADSA/
 
 | No. | Problem | Status |
 |:---:|---|:---:|
-| 6 | Implement a circular queue using an array and a linked list. | ⬜ |
-| 7 | Implement a queue using two stacks using Method 1, where the Push operation is costly, and Method 2, where the Pop operation is costly. | ⬜ |
-| 8 | Implement a stack using two queues using Method 1, where the EnQueue operation is costly, and Method 2, where the DeQueue operation is costly. | ⬜ |
+| 6 | Implement a circular queue using an array and a linked list. | ✅ |
+| 7 | Implement a queue using two stacks using Method 1, where the Push operation is costly, and Method 2, where the Pop operation is costly. | ✅ |
+| 8 | Implement a stack using two queues using Method 1, where the EnQueue operation is costly, and Method 2, where the DeQueue operation is costly. | ✅ |
 
 ---
 
